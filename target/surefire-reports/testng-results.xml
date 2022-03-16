@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-16T23:32:15 IST" name="Suite" finished-at="2022-03-16T23:38:25 IST" duration-ms="370576">
+    <groups>
+    </groups>
+    <test started-at="2022-03-16T23:32:15 IST" name="Test" finished-at="2022-03-16T23:38:25 IST" duration-ms="370576">
+      <class name="org.zbib.testcases.UI.BiblographyTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.BiblographyTest@6ee4d9ab]" started-at="2022-03-16T23:32:15 IST" name="setup" finished-at="2022-03-16T23:33:30 IST" duration-ms="75285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBiblograhy()[pri:1, instance:org.zbib.testcases.UI.BiblographyTest@6ee4d9ab]" started-at="2022-03-16T23:33:30 IST" name="verifyBiblograhy" finished-at="2022-03-16T23:33:30 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBiblograhy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.BiblographyTest@6ee4d9ab]" started-at="2022-03-16T23:33:30 IST" name="tearDown" finished-at="2022-03-16T23:33:31 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.BiblographyTest@6ee4d9ab]" started-at="2022-03-16T23:33:31 IST" name="setup" finished-at="2022-03-16T23:34:39 IST" duration-ms="68138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCopyLink()[pri:2, instance:org.zbib.testcases.UI.BiblographyTest@6ee4d9ab]" started-at="2022-03-16T23:34:39 IST" name="verifyCopyLink" finished-at="2022-03-16T23:34:51 IST" duration-ms="11551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCopyLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.BiblographyTest@6ee4d9ab]" started-at="2022-03-16T23:34:51 IST" name="tearDown" finished-at="2022-03-16T23:34:51 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.zbib.testcases.UI.BiblographyTest -->
+      <class name="org.zbib.testcases.UI.ManualCitationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:34:51 IST" name="setup" finished-at="2022-03-16T23:34:59 IST" duration-ms="7870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySingleManualCitation()[pri:1, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:34:59 IST" name="verifySingleManualCitation" finished-at="2022-03-16T23:35:18 IST" duration-ms="19081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingleManualCitation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:35:18 IST" name="tearDown" finished-at="2022-03-16T23:35:19 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:35:21 IST" name="setup" finished-at="2022-03-16T23:35:27 IST" duration-ms="6364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateMultipleManualCitation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:35:27 IST" name="validateMultipleManualCitation" data-provider="getCitationData" finished-at="2022-03-16T23:35:47 IST" duration-ms="19995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HP Book_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Book_1_fname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Book_1_lname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleManualCitation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:35:47 IST" name="tearDown" finished-at="2022-03-16T23:35:48 IST" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:35:48 IST" name="setup" finished-at="2022-03-16T23:35:58 IST" duration-ms="9576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateMultipleManualCitation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:35:58 IST" name="validateMultipleManualCitation" data-provider="getCitationData" finished-at="2022-03-16T23:36:17 IST" duration-ms="19555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HP Book_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Book_2_fname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Book_2_lname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleManualCitation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:36:17 IST" name="tearDown" finished-at="2022-03-16T23:36:18 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:36:18 IST" name="setup" finished-at="2022-03-16T23:36:27 IST" duration-ms="9018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateMultipleManualCitation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:36:27 IST" name="validateMultipleManualCitation" data-provider="getCitationData" finished-at="2022-03-16T23:36:46 IST" duration-ms="19504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HP Book_3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Book_3_fname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Book_3_lname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleManualCitation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.ManualCitationTest@59e32960]" started-at="2022-03-16T23:36:46 IST" name="tearDown" finished-at="2022-03-16T23:36:47 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.zbib.testcases.UI.ManualCitationTest -->
+      <class name="org.zbib.testcases.UI.SearchCitationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:36:47 IST" name="setup" finished-at="2022-03-16T23:36:55 IST" duration-ms="7992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySingleSearchCitation()[pri:1, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:36:55 IST" name="verifySingleSearchCitation" finished-at="2022-03-16T23:37:11 IST" duration-ms="15553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingleSearchCitation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:37:11 IST" name="tearDown" finished-at="2022-03-16T23:37:12 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:37:12 IST" name="setup" finished-at="2022-03-16T23:37:20 IST" duration-ms="8628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMulipleSearchCitation(java.lang.String,java.lang.String)[pri:2, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:37:20 IST" name="verifyMulipleSearchCitation" data-provider="getSearchCitationData" finished-at="2022-03-16T23:37:36 IST" duration-ms="15313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Half girlfriend]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhagat - 2014 -Rupa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMulipleSearchCitation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:37:36 IST" name="tearDown" finished-at="2022-03-16T23:37:36 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:37:36 IST" name="setup" finished-at="2022-03-16T23:37:46 IST" duration-ms="9052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMulipleSearchCitation(java.lang.String,java.lang.String)[pri:2, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:37:46 IST" name="verifyMulipleSearchCitation" data-provider="getSearchCitationData" finished-at="2022-03-16T23:38:01 IST" duration-ms="15557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Our Opposition is Right Under Our Nose]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edmunds – 2002 – The Nurse Practitioner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMulipleSearchCitation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:38:01 IST" name="tearDown" finished-at="2022-03-16T23:38:02 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:38:02 IST" name="setup" finished-at="2022-03-16T23:38:09 IST" duration-ms="7213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMulipleSearchCitation(java.lang.String,java.lang.String)[pri:2, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:38:09 IST" name="verifyMulipleSearchCitation" data-provider="getSearchCitationData" finished-at="2022-03-16T23:38:24 IST" duration-ms="15287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yearbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2003 – Routledge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMulipleSearchCitation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.zbib.testcases.UI.SearchCitationTest@7c214cc0]" started-at="2022-03-16T23:38:24 IST" name="tearDown" finished-at="2022-03-16T23:38:25 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.zbib.testcases.UI.SearchCitationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+org\zbib\testcases\API\validateCitationSearch.class
+org\zbib\testcases\API\validateBibliography.class
+org\zbib\testcases\UI\BiblographyTest.class
+org\zbib\testcases\UI\ManualCitationTest.class
+org\zbib\testcases\UI\SearchCitationTest.class
