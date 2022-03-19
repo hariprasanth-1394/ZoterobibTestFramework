@@ -13,5 +13,7 @@ Allure Report
 ```
 git clone https://github.com/hariprasanth-1394/ZoterobibTestFramework
 cd ZoterobibTestFramework
-mvn clean test
+
+UI : mvn clean test -DsuiteXmlFile=UI_Testng.xml
+API : mvn clean test -DsuiteXmlFile=API_Testng.xml
 ```
