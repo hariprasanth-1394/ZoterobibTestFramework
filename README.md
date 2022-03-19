@@ -8,6 +8,8 @@ RestAssured
 hamcrest
 Allure Report
 
+Pre-requests: Install Java and Maven 
+
 
 ### Steps to clone and execute the tests
 ```
