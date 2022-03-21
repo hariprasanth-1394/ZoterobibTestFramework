@@ -3,9 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.zbib.testcases.UI.BiblographyTest"/>
-      <class name="org.zbib.testcases.UI.ManualCitationTest"/>
-      <class name="org.zbib.testcases.UI.SearchCitationTest"/>
+      <class name="org.zbib.testcases.API.validateBibliography"/>
+      <class name="org.zbib.testcases.API.validateCitationSearch"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
